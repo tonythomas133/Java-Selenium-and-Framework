@@ -51,3 +51,20 @@ You can learn more about TestNG at the following link:
 
 https://www.browserstack.com/guide/testng-framework-with-selenium-automation#:~:text=TestNG%20is%20an%20open%2Dsource,stands%20for%20'Next%20Generation'
 
+
+Maven is our build management tool
+
+file--> new--> others--> select maven--> maven project--> check create a simple project--> next--> enter group id com.automation -> automationFramework ->finish
+
+remove src/main/resources and src/test/resource
+src/test/java we will be including all test cases here
+everything else will be usnder src/main/java
+
+right click src/test/java and add new package called testCases
+right click src/main/java and add 3 new packages baseClass, pages, utilities
+
+This should be what your project looks like now (your project name should be automationFramework not musafirAutomation[its a product of screwing around with github too much i ended up loosing the whole project, so this is all I have now]):
+
+![testNG-framework](https://user-images.githubusercontent.com/107812846/179401179-078049bb-0a8a-4052-9d76-104a3e033169.png)
+
+
