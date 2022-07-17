@@ -10,15 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class TC8_VerifyFlightDateFromDropDown {
 
 	public static void main(String[] args) throws InterruptedException {
-		/*
-		 TC4_VerifyFlights
-1)Open Browser & Launch Musafir Application
-2)Select One Way
-3)Enter From-'Kochi, India (COK)' and To-'Mumbai, India (BOM)'
-4)Enter date as  20/08/22
-5)Click Find Flights
-6)Verify Flights are listing
-		 */
+
 		System.setProperty("webdriver.chrome.driver", "F:\\selenium training\\drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -61,7 +53,7 @@ public class TC8_VerifyFlightDateFromDropDown {
 		else
 			System.out.println("ERROR: Flights are not listing");
 		
-		//driver.quit();
+		driver.quit();
 
 	}
 
