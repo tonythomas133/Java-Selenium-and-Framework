@@ -35,6 +35,7 @@ Click on "Create a Java Project")
 ![9 create java project](https://user-images.githubusercontent.com/107812846/179022188-76926eb8-5926-483d-a3d6-a7ce7de96bb3.png)
 
 This should be what your screen looks like now
+
 ![8 package-explorer-after-creation](https://user-images.githubusercontent.com/107812846/179023236-335a0fc9-2ec4-4c58-8bd3-6d93568a6438.png)
 
 
@@ -45,9 +46,11 @@ Expand the JRE System Library, you should see something like this
 This means that the jdk installation was fine.
 
 Creating a package
+
 ![10 src-create package](https://user-images.githubusercontent.com/107812846/179023315-76fb2cc5-11f0-494b-b75d-9efcd0ce216e.png)
 
 Under the package, create a class
+
 ![11 new-class](https://user-images.githubusercontent.com/107812846/179023552-958c0ec4-013c-4a4e-8a11-a6493ef511c5.png)
 
 ![12 javaclass](https://user-images.githubusercontent.com/107812846/179023588-10f80ef5-1f6e-409b-a816-b7be82f382d7.png)
