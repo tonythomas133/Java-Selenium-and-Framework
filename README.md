@@ -39,7 +39,9 @@ This should be what your screen looks like now
 
 
 Expand the JRE System Library, you should see something like this
+
 ![7 jre-library](https://user-images.githubusercontent.com/107812846/179022992-f91d094a-90b6-4a0e-876d-adbc82aaa738.png)
+
 This means that the jdk installation was fine.
 
 Creating a package
