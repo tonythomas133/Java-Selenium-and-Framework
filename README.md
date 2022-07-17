@@ -1,4 +1,4 @@
-# Java-Selenium-and-Framework
+# Java Selenium and Framework
 
 This repository contains files that I had created in my journey of learning Automation testing. This repo consists of all the info you'll need to learn the same, right from the basics of Java, Selenium and a framework that can be used when testing web applications in the real world.
 If you want to download the code or want to follow along, you will need a couple of things
@@ -8,6 +8,7 @@ If you want to download the code or want to follow along, you will need a couple
 4. TestNG
 
 The installations will be covered in this README.md file
+
 
 **Downloading and installing JDK and Eclipse**
 
@@ -52,13 +53,30 @@ Under the package, create a class
 You can write your 1st java program. From the javaBasics folder you can follow the lessons from there.
 
 
-**Selenium Installation**
+# Selenium Installation
+
 Before we start installing Selenium , you will require the right web driver for your browser. This web driver is what enables Selenium to interact with the browser. We are using the Chrome browser here, you could use Firefox (you ll have to google the steps for the same!)
+
 Check your Chrome browser version, click on the kebab menu (elipsis button or the 3 dots at the top right side of the browser), click on Help and About Google Chrome button it should show you your browser version.
+
 Now Download the suitable version of web driver from the following link:
 https://chromedriver.storage.googleapis.com/index.html?path=101.0.4951.41/
 
 
+Download the selenium jar file from the following link:
+https://www.selenium.dev/downloads/
 
+From the link download the Java version of Selenium
+create a folder called selenium traning, create 2 folders, software and drivers. in software add the selenium jar file and in the driver add the chromedriver. 
+
+
+# Configuring Selenium
+
+Right click project name --> build path--> Configure Build Path--> Libraries tab--> Select Classpath--> Add External jars--> Navigate to the selenium jar folder that was extracted, ctrl + A the whole content and open.
+
+Repeat the same for the lib folder content
+Click "Apply and Close"
+In eclipse, in the project, a new folder called 'Reference Libraries' is created.
+Selenium has been configured.
 
 
