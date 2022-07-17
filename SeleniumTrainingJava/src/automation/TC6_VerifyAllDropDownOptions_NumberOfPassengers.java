@@ -9,15 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 public class TC6_VerifyAllDropDownOptions_NumberOfPassengers {
 
 	public static void main(String[] args) throws InterruptedException {
-		/*
-		 TC5_VeriftOneWaySelector
-		1)Open Browser & Launch Musafir Application
-		2)Select One Way
-		3)Enter From-'Kochi, India (COK)' and To-'Mumbai, India (BOM)'
-		4)Select the Date - 20 August 2022 from calendar
-		5)Select number of adults, children and infant using the 3 methods
-		6)Click Find Flights
-		 */
+		
 			System.setProperty("webdriver.chrome.driver", "F:\\selenium training\\drivers\\chromedriver.exe");
 			WebDriver driver = new ChromeDriver();
 			driver.manage().window().maximize();
