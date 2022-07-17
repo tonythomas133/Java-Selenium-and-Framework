@@ -112,7 +112,7 @@ everything else will be usnder src/main/java
 right click src/test/java and add new package called testCases
 right click src/main/java and add 3 new packages baseClass, pages, utilities
 
-This should be what your project looks like now:
+This should be what your project looks like now (your project name should be automationFramework not musafirAutomation[its a product of screwing around with github too much i ended up loosing the whole project, so this is all I have now]):
 
 ![testNG-framework](https://user-images.githubusercontent.com/107812846/179401179-078049bb-0a8a-4052-9d76-104a3e033169.png)
 
