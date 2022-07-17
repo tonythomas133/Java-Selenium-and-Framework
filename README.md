@@ -58,7 +58,7 @@ Under the package, create a class
 You can write your 1st java program. From the javaBasics folder you can follow the lessons from there.
 
 
-# Selenium Installation
+# Installing and Configuring Selenium
 
 Before we start installing Selenium , you will require the right web driver for your browser. This web driver is what enables Selenium to interact with the browser. We are using the Chrome browser here, you could use Firefox (you ll have to google the steps for the same!)
 
@@ -76,13 +76,44 @@ From the link download the Java version of Selenium
 create a folder called selenium traning, create 2 folders, software and drivers. in software add the selenium jar file and in the driver add the chromedriver. 
 
 
-# Configuring Selenium
-
 Right click project name --> build path--> Configure Build Path--> Libraries tab--> Select Classpath--> Add External jars--> Navigate to the selenium jar folder that was extracted, ctrl + A the whole content and open.
 
 Repeat the same for the lib folder content
 Click "Apply and Close"
 In eclipse, in the project, a new folder called 'Reference Libraries' is created.
 Selenium has been configured.
+
+
+# Installing and Configuring TestNG
+
+In Eclipse, go to help--> Eclipse Marketplace
+
+![testng 1](https://user-images.githubusercontent.com/107812846/179401015-aa50e204-7aab-419a-a21a-edd67c73137b.png)
+
+Search testng
+
+![testng 2](https://user-images.githubusercontent.com/107812846/179401082-e35084b5-3460-41bb-a03c-567263f714d6.png)
+
+
+Install testng for eclipse
+Accept license
+Select trust all checkbox and click trust selected
+You will get a prompt to restart eclipse for the installation to take effect
+
+Maven is our build management tool
+
+file--> new--> others--> select maven--> maven project--> check create a simple project--> next--> enter group id com.automation -> automationFramework ->finish
+
+remove src/main/resources and src/test/resource
+
+src/test/java we will be including all test cases here
+everything else will be usnder src/main/java
+
+right click src/test/java and add new package called testCases
+right click src/main/java and add 3 new packages baseClass, pages, utilities
+
+This should be what your project looks like now:
+
+![testNG-framework](https://user-images.githubusercontent.com/107812846/179401179-078049bb-0a8a-4052-9d76-104a3e033169.png)
 
 
